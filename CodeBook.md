@@ -1,4 +1,4 @@
-#Code book
+## Code book
 This is the code book for tidy data set
 
 Variables Description
@@ -20,7 +20,7 @@ x_train - train/X_train.txt
 
 y_train -train/Y_train.txt
 
-Processing variables
+## Processing variables
 y_test_label - match y_test labels with corresponding activities
 
 tidy_test - binding test subject, test activity and test set
@@ -35,7 +35,7 @@ tidy_mean_std - data set with only measurements on the mean and standard deviati
 
 tidy_avg - independent tidy data set with the average of each variable for each activity and each subject.
 
-##Activity Labels
+## Activity Labels
 WALKING (value 1): subject was walking during the test
 WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
 WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
