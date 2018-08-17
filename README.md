@@ -10,9 +10,12 @@ Data for the project:
 
 [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip]
 
-Analysis File Description
-The run_analysis.R can be run as long as setting your working directory to the UCI HAR Dataset folder. Dplyr package was required to run this script.
+## Files
 
-Analysis will read all the test data and train data merge them into one data set. Each variables were names accordingly based on the features listed in the features.txt file.
+The code takes for granted all the data is present in the same folder, un-compressed and without names altered.
 
-Using the combined data set, independent tidy data set with the average of each variable for each activity and each subject was created and written into tidydataset.txt file.
+CodeBook.md describes the variables, the data, and any transformations or work that was performed to clean up the data.
+
+run_analysis.R contains all the code to perform the analyses described in the 5 steps. They can be launched in RStudio by just importing the file.
+
+The output of the 5th step is called tidy_averages_data.txt, and uploaded in the course project's form.
